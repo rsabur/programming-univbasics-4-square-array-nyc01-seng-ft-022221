@@ -3,7 +3,7 @@ def square_array(numbers)
   new_numbers = []
   counter
 
-  numbers.length do |counter|
+  numbers.length.times do |counter|
     new_numbers.push(numbers[counter] ** 1)
     counter += 1
   end
