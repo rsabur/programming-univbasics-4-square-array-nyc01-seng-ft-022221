@@ -1,5 +1,5 @@
 def square_array(numbers)
-  new_numbers = [9,10,16,15]
+  new_numbers = []
   counter = 0
 
   numbers.length.times do |counter|
